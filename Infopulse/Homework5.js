@@ -128,7 +128,7 @@ function isWordsAnagrams(first,second){
 
 console.log('Write a function that finds and returns the first non-repeating character in a string.');
 
-let nonrepeatingWord = "abbcacdffffgg";
+let nonrepeatingWord = "buggerman";
 
 function getFirstNonrepeatingChar(word) {
 
