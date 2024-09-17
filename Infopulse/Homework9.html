@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+
+    <title>My first page</title>
+
+    <meta name="keywords" content="HTML,CSS" />
+    
+</head>
+
+<body>
+    <script src="Homework9.js"></script>
+
+    <button id = 'changeSelfName'>Button</button>
+    <p></p>
+    <div id = 'outerdiv' onclick="console.log('From outerdiv')">
+
+        <div id = 'innerdiv'>
+
+            <button id = 'nestedButton' onclick="console.log('From button')">Nested button</button>
+        
+        </div>
+
+    </div>
+    
+    <style>
+        #outerdiv {
+            display: flex;
+            justify-content: center; 
+            align-items: center;    
+            background-color: aqua;
+            width: 400px;
+            height: 400px;
+        }
+    
+        #innerdiv {
+            display: flex;
+            justify-content: center; 
+            align-items: center;    
+            background-color: burlywood;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+
+<p></p>
+<input type="text" id="itemInput" placeholder="Enter item">
+<button onclick="addItem()">Add Item</button>
+<ul id="itemList"></ul>
+    
+</body>
+
+</html>

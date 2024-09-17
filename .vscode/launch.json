@@ -9,6 +9,12 @@
             "request": "launch",
             "name": "Open Homework8.html",
             "file": "d:\\GitHub\\js\\Infopulse\\Homework8.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open Homework9.html",
+            "file": "d:\\GitHub\\js\\Infopulse\\Homework9.html"
         }
     ]
 }
